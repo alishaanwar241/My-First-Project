@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodMate - Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌼 MoodMate</h1>
+        <p>How are you feeling today?</p>
+
+        <div class="moods">
+            <button onclick="selectMood('Happy')">😊 Happy</button>
+            <button onclick="selectMood('Sad')">😔 Sad</button>
+            <button onclick="selectMood('Calm')">😌 Calm</button>
+            <button onclick="selectMood('Excited')">🤩 Excited</button>
+        </div>
+
+        <div id="result">
+            Select your mood to begin!
+        </div>
+
+        <button class="history-btn" onclick="showHistory()">
+            View Mood History
+        </button>
+
+        <ul id="history"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

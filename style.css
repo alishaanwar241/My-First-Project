@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff1c9, #f8d9e8);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 35px 25px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 35px #00000015;
+}
+
+h1 {
+    color: #bd6b86;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.moods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.moods button,
+.history-btn {
+    border: none;
+    padding: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.moods button {
+    background: #fff0f5;
+    color: #8b4862;
+}
+
+.moods button:hover {
+    background: #f5c5d8;
+    transform: translateY(-3px);
+}
+
+#result {
+    background: #fff8e7;
+    padding: 20px 12px;
+    border-radius: 15px;
+    margin: 22px 0;
+    color: #72533b;
+    line-height: 1.6;
+}
+
+.history-btn {
+    background: #bd6b86;
+    color: white;
+    width: 100%;
+}
+
+.history-btn:hover {
+    background: #96506a;
+}
+
+#history {
+    list-style: none;
+    margin-top: 15px;
+    color: #666;
+}
+
+#history li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
