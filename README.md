@@ -23,7 +23,7 @@ It supports extensions for extra features. It has a terminal to run
 commands. It supports Git to track code changes.
 
 ![Figure 1: VS Code](screenshot/figure1-vscode.png)
-** Figure 1: VS Code**
+                    Figure 1: VS Code
 
 #### 2. VS Code Extensions
 
@@ -37,8 +37,6 @@ Extensions add extra features to VS Code and make coding easier.
 We would use these extensions to keep our code clean and organized. They
 help us find mistakes and make our code easier to read and maintain.
 
-**Screenshot reference:** Add a relevant screenshot here only if you
-took one for the extensions.
 
 #### 3. Node.js
 
@@ -62,10 +60,10 @@ Run it using:
 node app.js
 ```
 
-**Screenshot reference --- Figure 2: Checking Node.js version**
-
+             
 ![Figure 2: Checking Node.js
 version](screenshot/figure2-node-version.png)
+                Figure 2: Checking Node.js version
 
 #### 4. Package Manager (npm)
 
@@ -78,10 +76,9 @@ For example, if a project uses React, we can install it using:
 npm install react
 ```
 
-**Screenshot reference --- Figure 3: npm install react**
-
 ![Figure 3: npm install
 react](screenshot/figure3-npm-install-react.png)
+                     Figure 3: npm install react     
 
 We can use `npm install` to install the packages listed in a project.
 
@@ -89,9 +86,8 @@ We can use `npm install` to install the packages listed in a project.
 npm install
 ```
 
-**Screenshot reference --- Figure 4: npm install**
-
 ![Figure 4: npm install](screenshot/figure4-npm-install.png)
+                          Figure 4: npm install 
 
 #### 5. Browser Developer Tools
 
@@ -129,9 +125,9 @@ props or state.
 The `package.json` file contains basic information about the project,
 including its name, version, scripts, and required packages.
 
-**Screenshot reference --- Figure 5: package.json**
 
 ![Figure 5: package.json](screenshot/figure5-package-json.png)
+                     Figure 5: package.json
 
 #### 2. Dependencies
 
@@ -150,10 +146,10 @@ of `package.json`. Dependencies are important because developers do not
 need to write every feature from the beginning. They can use existing
 packages to build applications more efficiently.
 
-**Screenshot reference --- Figure 6: Installing a dependency**
 
 ![Figure 6: Installing a
 dependency](screenshot/figure6-dependencies-install.png)
+                  Figure 6: Installing a dependency
 
 #### 3. Development Dependencies
 
@@ -174,11 +170,11 @@ This command adds Prettier to the `devDependencies` section.
 A runtime dependency is needed to run the application, while a
 development dependency is used to write, test, and check the code.
 
-**Screenshot reference --- Figure 7: Installing a development
-dependency**
+
 
 ![Figure 7: Installing a development
 dependency](screenshot/figure7-dev-dependencies-install.png)
+      Figure 7: Installing a development dependency
 
 #### 4. Lockfile
 
@@ -197,9 +193,10 @@ the lockfile to reproduce the recorded package versions when possible.
 This reduces the chances of errors caused by package version
 differences.
 
-**Screenshot reference --- Figure 8: Lockfile**
+
 
 ![Figure 8: Lockfile](screenshot/figure8-lockfile.png)
+                 Figure 8: Lockfile
 
 ### (c) Describe the Steps to Create a Basic Node.js Project and Verify That It Runs
 
@@ -258,11 +255,11 @@ After this command, we can see `package.json` in the VS Code Explorer.
 Create a new file named `app.js` inside the project folder and write the
 JavaScript program for the practical.
 
-**Screenshot reference --- Figure 9: Project files and package
-configuration**
+
 
 ![Figure 9: Project files and package
 configuration](screenshot/figure9-project-structure.png)
+        Figure 9: Project files and package configuration
 
 #### Step 5: Run the Program
 
@@ -285,10 +282,11 @@ Also ensure Node.js is installed correctly.
 
 Check that the terminal displays the expected output.
 
-**Screenshot reference --- Figure 10: Node.js program output**
+
 
 ![Figure 10: Node.js program
 output](screenshot/figure10-program-output.png)
+            Figure 10: Node.js program output
 
 #### Step 7: Verify the Project Structure
 
@@ -339,11 +337,10 @@ and correct the code.
 -   File names and line numbers in many errors.
 -   Warnings and debugging messages.
 
-**Screenshot reference --- Figure 11: Console panel showing a JavaScript
-error**
 
 ![Figure 11: Console panel showing a JavaScript
 error](screenshot/figure11-console-error.png)
+            Figure 11: Console panel showing a JavaScript error
 
 #### 2. Network Panel
 
@@ -367,11 +364,11 @@ blocked request, or network issue.
 -   The time taken to complete the request.
 -   Error information that helps identify why a file failed to load.
 
-**Screenshot reference --- Figure 12: Network panel showing a failed
-image request**
+
 
 ![Figure 12: Network panel showing a failed image
 request](screenshot/figure12-failed-image-request.png)
+           Figure 12: Network panel showing a failed image request
 
 #### 3. Elements Panel
 
@@ -395,11 +392,10 @@ The Elements panel helps identify HTML and CSS problems, while the
 Network panel helps check whether the image file was successfully
 requested.
 
-**Screenshot reference --- Figure 13: Elements panel inspecting HTML and
-CSS**
 
 ![Figure 13: Elements panel inspecting HTML and
 CSS](screenshot/figure13-elements-panel.png)
+         Figure 13: Elements panel inspecting HTML and CSS
 
 #### 4. Sources Panel
 
@@ -414,9 +410,10 @@ source files and debug JavaScript using breakpoints.
 -   Run the code step by step to understand its execution.
 -   Check the code to find and fix errors.
 
-**Screenshot reference --- Figure 14: Sources panel**
+
 
 ![Figure 14: Sources panel](screenshot/figure14-sources-panel.png)
+                   Figure 14: Sources panel
 
 ------------------------------------------------------------------------
 
@@ -447,10 +444,11 @@ git status
 
 This command shows which files are new, changed, or ready to commit.
 
-**Screenshot reference --- Question 2, Figure 1: Git status**
+
 
 ![Question 2 Figure 1: Git
 status](screenshot/q2-figure1-git-status.png)
+            Figure 1: Git status 
 
 #### 2. Add Files to Staging
 
@@ -469,10 +467,11 @@ git commit -m "Initial project commit"
 
 This command saves a snapshot of the current changes in Git history.
 
-**Screenshot reference --- Question 2, Figure 2: Add and commit**
+
 
 ![Question 2 Figure 2: Add and
 commit](screenshot/q2-figure2-add-commit.png)
+        Figure 2: Add and commit
 
 #### 4. Connect the Local Project to GitHub
 
@@ -503,10 +502,9 @@ git push -u origin main
 This command uploads the committed changes to GitHub. The `-u` option
 sets the upstream branch for easier future pushes.
 
-**Screenshot reference --- Question 2, Figure 3: GitHub repository**
-
 ![Question 2 Figure 3: GitHub
 repository](screenshot/q2-figure3-github-repository.png)
+                 Figure 3: GitHub repository
 
 ### (b) Why Should `node_modules` Be Excluded Using `.gitignore`?
 
@@ -529,11 +527,11 @@ node_modules/
 -   `.env` prevents environment files that may contain private
     information from being tracked. Never upload passwords or API keys.
 
-**Screenshot reference --- Question 2, Figure 4: `.gitignore` file
-containing `node_modules/`**
+
 
 ![Question 2 Figure 4: gitignore
 file](screenshot/q2-figure4-gitignore.png)
+            Figure 4: `.gitignore` file containing `node_modules/`
 
 #### Role of `package.json` and the Lockfile
 
@@ -566,10 +564,11 @@ their changes, they can merge them into the `main` branch.
 This approach reduces conflicts and helps prevent one developer from
 accidentally overwriting another developer's work.
 
-**Screenshot reference --- Question 2, Figure 5: Branch commands**
+
 
 ![Question 2 Figure 5: Branch
 commands](screenshot/q2-figure5-branch-commands.png)
+             Figure 5: Branch commands
 
 ### (d) What to Do When a Push Is Rejected?
 
@@ -641,10 +640,11 @@ developers' commits from the branch history. This may cause lost work
 and problems for the whole team. Therefore, we should review and
 integrate remote changes before pushing again.
 
-**Screenshot reference --- Question 2, Figure 7: Commit history**
+
 
 ![Question 2 Figure 7: Commit
 history](screenshot/q2-figure7-commit-history.png)
+           Figure 7: Commit history
 
 ------------------------------------------------------------------------
 
