@@ -22,9 +22,8 @@ read with different colors. It finds coding errors and suggests fixes.
 It supports extensions for extra features. It has a terminal to run
 commands. It supports Git to track code changes.
 
-**Screenshot reference --- Figure 1: VS Code**
-
 ![Figure 1: VS Code](screenshot/figure1-vscode.png)
+** Figure 1: VS Code**
 
 #### 2. VS Code Extensions
 
