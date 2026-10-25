@@ -66,7 +66,7 @@ node app.js
 **Screenshot reference --- Figure 2: Checking Node.js version**
 
 ![Figure 2: Checking Node.js
-version](screenshots/figure2-node-version.png)
+version](screenshot/figure2-node-version.png)
 
 #### 4. Package Manager (npm)
 
@@ -82,7 +82,7 @@ npm install react
 **Screenshot reference --- Figure 3: npm install react**
 
 ![Figure 3: npm install
-react](screenshots/figure3-npm-install-react.png)
+react](screenshot/figure3-npm-install-react.png)
 
 We can use `npm install` to install the packages listed in a project.
 
@@ -92,7 +92,7 @@ npm install
 
 **Screenshot reference --- Figure 4: npm install**
 
-![Figure 4: npm install](screenshots/figure4-npm-install.png)
+![Figure 4: npm install](screenshot/figure4-npm-install.png)
 
 #### 5. Browser Developer Tools
 
@@ -132,7 +132,7 @@ including its name, version, scripts, and required packages.
 
 **Screenshot reference --- Figure 5: package.json**
 
-![Figure 5: package.json](screenshots/figure5-package-json.png)
+![Figure 5: package.json](screenshot/figure5-package-json.png)
 
 #### 2. Dependencies
 
@@ -154,7 +154,7 @@ packages to build applications more efficiently.
 **Screenshot reference --- Figure 6: Installing a dependency**
 
 ![Figure 6: Installing a
-dependency](screenshots/figure6-dependencies-install.png)
+dependency](screenshot/figure6-dependencies-install.png)
 
 #### 3. Development Dependencies
 
@@ -179,7 +179,7 @@ development dependency is used to write, test, and check the code.
 dependency**
 
 ![Figure 7: Installing a development
-dependency](screenshots/figure7-dev-dependencies-install.png)
+dependency](screenshot/figure7-dev-dependencies-install.png)
 
 #### 4. Lockfile
 
@@ -200,7 +200,7 @@ differences.
 
 **Screenshot reference --- Figure 8: Lockfile**
 
-![Figure 8: Lockfile](screenshots/figure8-lockfile.png)
+![Figure 8: Lockfile](screenshot/figure8-lockfile.png)
 
 ### (c) Describe the Steps to Create a Basic Node.js Project and Verify That It Runs
 
@@ -263,7 +263,7 @@ JavaScript program for the practical.
 configuration**
 
 ![Figure 9: Project files and package
-configuration](screenshots/figure9-project-structure.png)
+configuration](screenshot/figure9-project-structure.png)
 
 #### Step 5: Run the Program
 
@@ -289,7 +289,7 @@ Check that the terminal displays the expected output.
 **Screenshot reference --- Figure 10: Node.js program output**
 
 ![Figure 10: Node.js program
-output](screenshots/figure10-program-output.png)
+output](screenshot/figure10-program-output.png)
 
 #### Step 7: Verify the Project Structure
 
@@ -344,7 +344,7 @@ and correct the code.
 error**
 
 ![Figure 11: Console panel showing a JavaScript
-error](screenshots/figure11-console-error.png)
+error](screenshot/figure11-console-error.png)
 
 #### 2. Network Panel
 
@@ -372,7 +372,7 @@ blocked request, or network issue.
 image request**
 
 ![Figure 12: Network panel showing a failed image
-request](screenshots/figure12-failed-image-request.png)
+request](screenshot/figure12-failed-image-request.png)
 
 #### 3. Elements Panel
 
@@ -400,7 +400,7 @@ requested.
 CSS**
 
 ![Figure 13: Elements panel inspecting HTML and
-CSS](screenshots/figure13-elements-panel.png)
+CSS](screenshot/figure13-elements-panel.png)
 
 #### 4. Sources Panel
 
@@ -417,7 +417,7 @@ source files and debug JavaScript using breakpoints.
 
 **Screenshot reference --- Figure 14: Sources panel**
 
-![Figure 14: Sources panel](screenshots/figure14-sources-panel.png)
+![Figure 14: Sources panel](screenshot/figure14-sources-panel.png)
 
 ------------------------------------------------------------------------
 
@@ -451,7 +451,7 @@ This command shows which files are new, changed, or ready to commit.
 **Screenshot reference --- Question 2, Figure 1: Git status**
 
 ![Question 2 Figure 1: Git
-status](screenshots/q2-figure1-git-status.png)
+status](screenshot/q2-figure1-git-status.png)
 
 #### 2. Add Files to Staging
 
@@ -473,7 +473,7 @@ This command saves a snapshot of the current changes in Git history.
 **Screenshot reference --- Question 2, Figure 2: Add and commit**
 
 ![Question 2 Figure 2: Add and
-commit](screenshots/q2-figure2-add-commit.png)
+commit](screenshot/q2-figure2-add-commit.png)
 
 #### 4. Connect the Local Project to GitHub
 
@@ -507,7 +507,7 @@ sets the upstream branch for easier future pushes.
 **Screenshot reference --- Question 2, Figure 3: GitHub repository**
 
 ![Question 2 Figure 3: GitHub
-repository](screenshots/q2-figure3-github-repository.png)
+repository](screenshot/q2-figure3-github-repository.png)
 
 ### (b) Why Should `node_modules` Be Excluded Using `.gitignore`?
 
@@ -534,7 +534,7 @@ node_modules/
 containing `node_modules/`**
 
 ![Question 2 Figure 4: gitignore
-file](screenshots/q2-figure4-gitignore.png)
+file](screenshot/q2-figure4-gitignore.png)
 
 #### Role of `package.json` and the Lockfile
 
@@ -570,7 +570,7 @@ accidentally overwriting another developer's work.
 **Screenshot reference --- Question 2, Figure 5: Branch commands**
 
 ![Question 2 Figure 5: Branch
-commands](screenshots/q2-figure5-branch-commands.png)
+commands](screenshot/q2-figure5-branch-commands.png)
 
 ### (d) What to Do When a Push Is Rejected?
 
@@ -633,7 +633,7 @@ the local commits.
 troubleshooting**
 
 ![Question 2 Figure 6: Pull and
-troubleshooting](screenshots/q2-figure6-pull-troubleshooting.png)
+troubleshooting](screenshot/q2-figure6-pull-troubleshooting.png)
 
 #### Why Is Blindly Overwriting Remote History Risky?
 
@@ -645,7 +645,7 @@ integrate remote changes before pushing again.
 **Screenshot reference --- Question 2, Figure 7: Commit history**
 
 ![Question 2 Figure 7: Commit
-history](screenshots/q2-figure7-commit-history.png)
+history](screenshot/q2-figure7-commit-history.png)
 
 ------------------------------------------------------------------------
 
