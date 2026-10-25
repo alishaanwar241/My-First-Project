@@ -24,7 +24,7 @@ commands. It supports Git to track code changes.
 
 **Screenshot reference --- Figure 1: VS Code**
 
-![Figure 1: VS Code](screenshots/figure1-vscode.png)
+![Figure 1: VS Code](screenshot/figure1-vscode.png)
 
 #### 2. VS Code Extensions
 
